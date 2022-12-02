@@ -153,11 +153,15 @@ max-height: 80px;
 
 @media(min-width: 769px){
    
+    .main_container{
+        align-items: center;
+    }
     .main_container section{
         display: flex;
         flex-direction: column;
         padding: 20px;
         gap: 22px;
+        max-width: 661px;
         
     }
     
@@ -172,7 +176,7 @@ max-height: 80px;
         width: 303px;
     }
     .main_container section h2{
-        text-align: center;
+        /* text-align: center; */
     }
 }
 

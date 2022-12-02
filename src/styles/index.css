@@ -141,7 +141,7 @@ max-height: 80px;
     
 }
 
-@media(min-width: 425px){
+@media(min-width: 426px){
    
     .header-container button{
         width: 200px;
@@ -177,9 +177,20 @@ max-height: 80px;
 }
 
 @media(min-width:1019px){
+   
     .main_container section h2{
         text-align: start;
        
+    }
+    .main_container section  ul{
+        justify-content: space-between;
+        
+    }
+    .main_container section{
+        max-width: 986px;
+    }
+    .main_container{
+        align-items: center;
     }
     
 }
